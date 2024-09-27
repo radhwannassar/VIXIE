@@ -1,0 +1,20 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-vixiefrontend-dev-4d33e-authRole",
+      "UnauthRoleArn": "arn:aws:iam::509399603429:role/amplify-vixiefrontend-dev-4d33e-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::509399603429:role/amplify-vixiefrontend-dev-4d33e-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-vixiefrontend-dev-4d33e-deployment",
+      "UnauthRoleName": "amplify-vixiefrontend-dev-4d33e-unauthRole",
+      "StackName": "amplify-vixiefrontend-dev-4d33e",
+      "StackId": "arn:aws:cloudformation:us-east-1:509399603429:stack/amplify-vixiefrontend-dev-4d33e/0b293a00-7c6f-11ef-863e-127807db90c3",
+      "AmplifyAppId": "d1lkp6pc8noq1t"
+    },
+    "categories": {
+      "auth": {
+        "vixiefrontenda7f4380a": {}
+      }
+    }
+  }
+}
