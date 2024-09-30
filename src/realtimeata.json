@@ -1,0 +1,50 @@
+[
+    {
+        "code_name": "P001",
+        "sensor": "Engine RPM",
+        "state": "2500 RPM",
+        "advice": "RPM is normal. Maintain speed to avoid engine strain."
+    },
+    {
+        "code_name": "P002",
+        "sensor": "Engine Temperature",
+        "state": "90°C",
+        "advice": "Temperature is within normal range. Monitor for spikes."
+    },
+    {
+        "code_name": "P003",
+        "sensor": "Oil Pressure",
+        "state": "40 PSI",
+        "advice": "Oil pressure is good. Ensure regular oil changes."
+    },
+    {
+        "code_name": "P004",
+        "sensor": "Battery Voltage",
+        "state": "12.5V",
+        "advice": "Battery voltage is sufficient. Check connections periodically."
+    },
+    {
+        "code_name": "P005",
+        "sensor": "Fuel Level",
+        "state": "30%",
+        "advice": "Fuel level is low. Consider refueling soon."
+    },
+    {
+        "code_name": "P006",
+        "sensor": "Tire Pressure",
+        "state": "32 PSI",
+        "advice": "Tire pressure is optimal. Regular checks recommended."
+    },
+    {
+        "code_name": "P007",
+        "sensor": "Oxygen Sensor",
+        "state": "Normal",
+        "advice": "Oxygen levels are normal. No action required."
+    },
+    {
+        "code_name": "P008",
+        "sensor": "Exhaust Gas Temperature",
+        "state": "600°F",
+        "advice": "Exhaust temperature is normal. Ensure proper exhaust flow."
+    }
+]

@@ -1,13 +1,17 @@
-/* src/App.css */
 
 body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
+  background-image: url('./background.png'); /* Path to your background image */
+  background-size: cover; /* Cover the entire viewport */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
 }
 
+
 .app-container {
-  margin: 0 300px; /* 100px margin on left and right */
+  margin: 0 100px; /* Reduced margin on left and right */
   padding-top: 20px; /* Adjust padding for content */
 }
 
@@ -32,7 +36,153 @@ button:hover {
 }
 
 .page {
+  width: 100%; /* Full-width page */
   transition: all 0.5s ease; /* Smooth transition for page change */
+  padding: 20px; /* Padding inside the page */
 }
 
-/* Add your existing styles here */
+/* Dashboard styles */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  
+}
+
+.dashboard {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 800px; /* Set a maximum width for the dashboard */
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  opacity: 70%;
+}
+
+.dashboard-card {
+  flex: 1;
+  background-color: #fff;
+  border-radius: 10px;
+  margin: 10px;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Chatbot styles */
+.chatbot-container {
+  width: 100%;
+  max-width: 800px; /* Limit the width of the chatbot container */
+  background-color: #e0e0e0;
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.messages {
+  height: 150px;
+  overflow-y: auto;
+  padding: 10px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.input-container {
+  display: flex;
+  gap: 10px;
+}
+
+.input-container input {
+  flex: 1;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.input-container button {
+  padding: 10px 15px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Popup Styles */
+.popup {
+  position: fixed;
+  top: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 80px;
+  opacity: 90%;
+  background-color: rgb(62, 93, 160);
+  color: white;
+  border-radius: 10px;
+  width: 80%;
+  text-align: center;
+  font-size: 1.2em;
+  z-index: 1000;
+}
+
+/* Parts page styles */
+.parts-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  padding: 20px;
+}
+
+.part-card {
+  flex: 1;
+  width: 45%;
+  background-color: #f0f0f0;
+  padding: 50px;
+  border-radius: 10px;
+  text-align: center;
+  cursor:pointer;
+  opacity: 70%;
+  margin: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.part-card:hover {
+  background-color: #dcdcdc;
+}
+
+/* Status box styles */
+.status-box {
+  display: block;
+  position: fixed;
+  top: 50px; /* Adjust top position */
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 80px;
+  opacity: 90%;
+  background-color: rgb(62, 93, 160);
+  color: white;
+  border-radius: 10px;
+  width: 80%;
+  text-align: center;
+  font-size: 1.2em;
+  z-index: 1000;
+}
+@media (max-width: 768px) {
+  .status-box {
+    width: 90%; /* Smaller screens will have wider box */
+    font-size: 16px; /* Smaller font size on smaller screens */
+  }
+}
+.logo-container {
+  text-align: center; /* Center the logo */
+  margin-bottom: 20px; /* Add space below the logo */
+}
+
+.logo {
+  max-width: 300px; /* Increase the maximum width */
+  height: auto; /* Maintain aspect ratio */
+  margin: 0 auto; /* Center the logo */}
